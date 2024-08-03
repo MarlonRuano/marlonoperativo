@@ -1,2 +1,5 @@
+def saludo(nombre):
+    print(f"Hola, {nombre}!")
+
 nombre = input("¿Cuál es tu nombre? ")
-print(f"Hola, {nombre}!")
+saludo(nombre)
